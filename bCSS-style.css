@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+main,
+main * {
+    /* border: 1px solid red; */
+    box-sizing: border-box !important;
+}
+
+main {
+    width: 1200px;
+
+    margin: 0 auto;
+
+    background-color: rgb(245, 246, 246);
+}
+
+header {
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    height: 50px;
+}
