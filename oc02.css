@@ -1,0 +1,61 @@
+.main {
+    font-family: "Lucida Console", "微软雅黑", monospace;
+    margin-left:25px ;
+    margin-right:25px ;
+    height: 800px;
+    font-size: 16px;
+
+
+}
+.header{
+    background-color: rgb(223, 240, 246);
+    height: 50px;
+
+}
+.inputform{
+    position: relative;
+    height: 600px;
+
+}
+.inputform div{
+    margin: 20px;
+}
+.title{
+    font-size: 25px;
+    position: absolute;
+    left: 37.5%;
+    top: 10%;
+    width: 250px;
+    height: 50px;
+}
+form{
+    position: absolute;
+    left: 33%;
+    top: 25%;
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+form div{
+    padding-top: 20px;
+
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid rgba(93, 117, 126, 0.598);
+}
+#sendcode{
+    width: 100px;
+    margin: 0px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid rgba(93, 117, 126, 0.598);
+    margin-left: 140px;
+}
+
