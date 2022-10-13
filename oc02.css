@@ -25,10 +25,10 @@
     position: absolute;
     left: 37.5%;
     top: 10%;
-    width: 250px;
+    width: 280px;
     height: 50px;
 }
-form{
+#RorS{
     position: absolute;
     left: 33%;
     top: 25%;
@@ -37,7 +37,7 @@ form{
     border-radius: 15px;
 
 }
-form div{
+#RorS div{
     padding-top: 20px;
 
 }
@@ -58,4 +58,43 @@ button{
     border: 2px solid rgba(93, 117, 126, 0.598);
     margin-left: 140px;
 }
+textarea{
+    resize: none;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    left: 17%;
+    border-radius: 8px;
+    border: 2px solid rgba(93, 117, 126, 0.598);
+    font-size: 20px;
+}
+.inputbox{
+    position: relative;
+    height: 450px;
+    
+}
 
+.inputbox button{
+    position: absolute;
+    left: 35%;
+    bottom: 0%;
+}
+.setting{
+    position: relative;
+    height: 40px;
+}
+.selectlist{
+    position: absolute;
+    left: 17%;
+}
+
+select{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid rgba(93, 117, 126, 0.598);
+}
+#hhtitle{
+    position: relative;
+    height: 100px;
+}
