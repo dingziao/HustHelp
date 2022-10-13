@@ -9,43 +9,57 @@
             rel="stylesheet"
             type="text/css"
             media="screen"
-            href="bCSS-category.css"
-        />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            media="screen"
-            href="bCSS-list.css"
-        />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            media="screen"
             href="bCSS-style.css"
         />
     </head>
     <body>
         <main>
             <header>页眉</header>
-            <section id="category">
-                <a href="#">
+            <section id="categorys">
+                <header class="cate-header">
+                    <button class="next-cates">
+                        <svg
+                            viewBox="0 0 256 512"
+                            width="100"
+                            title="angle-right"
+                        >
+                            <path
+                                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                            />
+                        </svg>
+                    </button>
+
+                    <button class="last-cates">
+                        <svg
+                            viewBox="0 0 256 512"
+                            width="100"
+                            title="angle-left"
+                        >
+                            <path
+                                d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                            />
+                        </svg>
+                    </button>
+                </header>
+                <a href="#" class="category">
                     <figure class="cate-picture"></figure>
                     <section class="cate">
-                        <section class="category-name">类别名称</section>
+                        <section class="category-name">
+                            <span>类别名称</span>
+                            <span class="atc-number">n</span>
+                        </section>
                         <section class="last-article">
                             <span class="last-atc-name">最新发帖</span
                             ><span class="last-article-time">发帖时间</span>
                         </section>
                     </section>
                 </a>
-                <a href=""></a><a href=""></a><a href=""></a><a href=""></a
-                ><a href=""></a>
             </section>
             <section id="list">
                 <ul>
                     <li id="list-head">
                         <section class="sort">
-                            <a href="#">最新</a>
+                            <a href="#" class="sort-selected">最新</a>
                             <a href="#">热门</a>
                         </section>
                         <section class="plate-name">板块名称</section>
@@ -68,10 +82,30 @@
                             </section>
                         </section>
                         <section class="respond">
-                            <section>回复数量</section>
-                            <section>查看数量</section>
+                            <section class="rsp-num">10</section>
+                            <section class="check-num">3124</section>
                         </section>
-                        <section class="last-release">最后发布时间</section>
+                        <section class="last-release">1小时前</section>
+                    </li>
+                    <li class="list-cont">
+                        <section class="atc-name">
+                            <a href="#">文章标题</a>
+                        </section>
+                        <section class="plate-name">
+                            <a href="#">板块</a>
+                        </section>
+                        <section class="author">
+                            <figure class="head-picture"></figure>
+                            <section>
+                                <a href="#" class="author-name">作者昵称</a>
+                                <section class="author-time">发布时间</section>
+                            </section>
+                        </section>
+                        <section class="respond">
+                            <section class="rsp-num">31</section>
+                            <section class="check-num">1968</section>
+                        </section>
+                        <section class="last-release">2小时前</section>
                     </li>
                     <li class="list-cont"></li>
                     <li class="list-cont"></li>
