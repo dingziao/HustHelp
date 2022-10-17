@@ -1,13 +1,258 @@
+/* 设置list展示整体 */
+#list {
+    width: 1160px;
+
+    margin: 0 auto;
+
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 10px;
+}
+
+#list > ul {
+    list-style-type: none;
+}
+
+/* 设置list标题部分 */
+#list-head {
+    width: 1160px;
+    height: 60px;
+
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: rgb(230, 241, 246);
+}
+
+/* 设置帖子部分 */
+.list-cont {
+    height: 60px;
+    width: 1120px;
+
+    margin-left: 20px;
+
+    border-bottom: 1px solid rgb(195, 214, 227);
+}
+
+#list-head > section,
+.list-cont > section {
+    height: 50px;
+
+    float: left;
+    margin-top: 5px;
+    line-height: 50px;
+}
+
+.list-cont > section > a {
+    color: black;
+    line-height: 25px;
+    text-decoration: none;
+}
+/* 设置list部分链接变色 */
+.list-cont > section a:hover {
+    border-bottom: 1px solid black;
+}
+/* 设置list排序方式 */
+.sort {
+    width: 600px;
+
+    margin-left: 20px;
+}
+
+.sort * {
+    color: rgb(73, 123, 137);
+}
+/* 被选中的排序方式字体加粗设置 */
+.sort-selected {
+    font-weight: 700;
+}
+/* 设置帖子标题 */
+.atc-name {
+    width: 600px;
+}
+
+/* 作者栏 */
+.author {
+    width: 150px;
+}
+
+.author > * {
+    float: left;
+
+    line-height: 20px;
+}
+
+/* 作者名称 */
+.author-name {
+    color: black;
+}
+/* 最后发布时间 */
+.author-time {
+    margin-top: 10px;
+
+    color: grey;
+}
+.author-time,
+.author-name {
+    height: 20px;
+}
+/* 作者头像 */
+.head-picture {
+    width: 40px;
+    height: 40px;
+
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 2px solid rgb(153, 153, 153);
+}
+/* 板块名称 */
+.plate-name {
+    width: 100px;
+}
+/* 回复查看栏 */
+.respond {
+    width: 100px;
+}
+
+.respond section {
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+/* 回复数量 */
+.respond > :first-child {
+    color: rgb(85, 132, 143);
+}
+/* 查看数量 */
+.respond > :last-child {
+    color: rgb(153, 153, 153);
+}
+/* 最后发布 */
+.last-release {
+    width: 100px;
+}
+
+.list-cont .last-release {
+    color: rgb(153, 153, 153);
+}
+
+/* 分类展示部分 */
+#categorys {
+    height: 250px;
+    width: 1160px;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    background-color: white;
+}
+/* 切换分类 */
+.next-cates,
+.last-cates {
+    width: 30px;
+    height: 30px;
+
+    margin-top: 10px;
+    float: right;
+    align-items: center;
+
+    border: none;
+
+    background-color: transparent;
+}
+/* 切换图标 */
+.next-cates > svg,
+.last-cates > svg {
+    width: 25px;
+    height: 25px;
+
+    fill: #80d8ff;
+}
+
+.category {
+    width: 45%;
+    height: 60px;
+
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+
+    border-bottom: 2px dashed rgb(167, 177, 180);
+}
+
+.cate-header {
+    height: 50px;
+
+    border-bottom: 1px dashed rgb(167, 177, 180);
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    background-color: rgb(230, 241, 246);
+}
+
+.category:hover {
+    background-color: rgba(212, 247, 247, 0.616);
+}
+
+.cate {
+    float: left;
+
+    color: black;
+}
+
+.cate-picture {
+    height: 50px;
+    width: 50px;
+
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+
+    border: 1px solid black;
+}
+
+.category-name {
+    height: 20px;
+    width: max-content;
+
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+
+.atc-number {
+    font-weight: 500;
+    color: rgb(244, 140, 118);
+}
+
+.last-article {
+    height: 30px;
+}
+
+.last-atc-name {
+    margin-right: 10px;
+}
+
+.last-article-time {
+    color: rgb(153, 153, 153);
+}
+
+.cate-quantity {
+    height: 30px;
+    width: 20px;
+
+    float: left;
+}
+/* 全局设置 */
 * {
     padding: 0;
     margin: 0;
-}
-main,
-main * {
-    /* border: 1px solid red; */
     box-sizing: border-box !important;
 }
-
+/* 设置页面主体部分 */
 main {
     width: 1200px;
 
@@ -23,7 +268,7 @@ header {
 a {
     text-decoration: none;
 }
-
+/* 页脚设置 */
 footer {
     height: 50px;
 }
