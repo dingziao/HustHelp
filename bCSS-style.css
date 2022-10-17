@@ -25,6 +25,9 @@
 }
 
 /* 设置帖子部分 */
+
+/* 第一个帖子为模板，隐藏显示 */
+
 .list-cont {
     height: 60px;
     width: 1120px;
@@ -32,6 +35,10 @@
     margin-left: 20px;
 
     border-bottom: 1px solid rgb(195, 214, 227);
+}
+
+.template {
+    display: none;
 }
 
 #list-head > section,
