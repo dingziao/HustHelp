@@ -1,0 +1,244 @@
+ul {
+    padding: 0;
+    margin: 0px;
+}
+
+.main {
+    width: 1160px;
+    margin: 0 auto;
+    background-color: rgb(245, 246, 246);
+    text-align: center;
+    border: solid #4d45454a;
+    border-width: 0 1px 0 1px;
+
+}
+
+.text {
+    width: 1160px;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    height:fit-content;
+    text-align: center;
+    display: flex;
+}
+
+.lefttext {
+    width: 200px;
+    margin-right: 3px;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(226 226 226);
+}
+
+.poster {
+    display: block;
+    margin: 20px auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 120px;
+
+}
+
+.author li {
+    display: inline-block;
+    list-style: none;
+
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.portrait {
+    width: 90px;
+    height: 90px;
+}
+
+.id {
+    width: 90px;
+    max-height: fit-content;
+}
+
+.id a {
+    text-decoration: none;
+}
+
+.postinfor {
+    width: 110px;
+    height: 30px;
+}
+
+.righttext {
+    width: 80%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.texttitle {
+    background-color: rgb(221, 218, 218);
+    text-align: center;
+    word-wrap: break-word;
+    padding: 5px;
+    height: auto;
+
+}
+
+.textcontext {
+    background-color: rgb(255, 255, 255);
+    font-family: 宋体, 黑体;
+    padding: 15px;
+    word-wrap: break-word;
+    height: auto;
+
+}
+
+.comment {
+    background-color: rgb(221, 218, 218);
+    font-family: 宋体, 黑体;
+    padding: 15px;
+    word-wrap: break-word;
+    height:fit-content;
+}
+
+.addcomment {
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    height: 180px;
+    background-color: #d4cdcd1c;
+
+}
+
+.headline {
+    height: 30px;
+    width: 100px;
+    margin: 0px 10px;
+    text-align: left;
+    background-image: url(poster_icons_0eeee40.png);
+    background-repeat: no-repeat;
+    background-position: 0px 15px;
+    line-height: 42px;
+    text-indent: 24px;
+}
+
+header {
+    margin: 0 auto;
+    width: 1160px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 页脚设置 */
+footer {
+    height: 50px;
+}
+
+.Input_Box {     
+    width: 990px;
+    height: 139px;  
+    margin: 0 105px;
+    border: 1px solid #ccc;     
+    transition: border linear .2s, box-shadow linear .5s;     
+    -moz-transition: border linear .2s, -moz-box-shadow linear .5s;     
+    -webkit-transition: border linear .2s, -webkit-box-shadow linear .5s;     
+    -moz-border-radius: 5px;     
+    -webkit-border-radius: 5px;     
+    border-radius: 5px;     
+    background-color: #fff;     
+    overflow: hidden;     
+    position: relative;     
+    -moz-box-shadow: 0 0 5px #ccc;     
+    -webkit-box-shadow: 0 0 5px #ccc;     
+    box-shadow: 0 0 5px #ccc;     
+}     
+.Input_Box>textarea {     
+    width: 100%;     
+    height: 100px;   
+    padding: 0px;     
+    outline: none;     
+    border: 0px solid #fff;     
+    resize: none;     
+    font: 13px "微软雅黑", Arial, Helvetica, sans-serif;     
+    -moz-border-radius: 5px;     
+    -webkit-border-radius: 5px;     
+    border-radius: 5px;     
+}     
+.Input_Foot {     
+    width: 100%;     
+    height:35px;     
+    border-top: 1px solid #ccc;     
+    background-color: #fff;     
+    -moz-border-radius: 0 0 5px 5px;     
+    -webkit-border-radius: 0 0 5px 5px;     
+    border-radius: 0 0 5px 5px;     
+    position: absolute;     
+}     
+.imgBtn {     
+    float: left;     
+    margin-top: 8px;     
+    margin-left: 10px;     
+    background-image: url(poster_icons_0eeee40.png);     
+    background-repeat: no-repeat;     
+    background-position: 0 -13px;     
+    height: 18px;     
+    width: 20px;     
+    cursor: pointer     
+}     
+.imgBtn:active {     
+    margin-top: 9px;     
+}     
+.imgBtn:hover {     
+    background-position: 0 -31px     
+}     
+.postBtn {     
+    float: right;
+    width: 140px;
+    font: 13px "微软雅黑", Arial, Helvetica, sans-serif; 
+    color: #000000;     
+    padding: 9px 20px 7px 20px;     
+    border-left: 1px solid #ccc;     
+    cursor:pointer;     
+    -moz-border-radius: 0 0 5px 0;     
+    -webkit-border-radius: 0 0 5px 0;     
+    border-radius: 0 0 5px 0;     
+}     
+
+.postBtn:hover {     
+    background-color: #dadada;     
+}     
+.postBtn:active {     
+    padding: 10px 20px 6px 20px;     
+}     
+.faceDiv {     
+    width: 500px;     
+    height: 120px;     
+    border-top: 1px solid #ccc;     
+    position: absolute;     
+    background-color:  #ccc;     
+    -moz-border-radius: 5px 5px 0 0;     
+    -webkit-border-radius: 5px 5px 0 0;     
+    border-radius: 5px 5px 0 0;     
+}     
+.faceDiv>img {     
+    border: 1px solid #ccc;     
+    float: left;     
+    margin-left: -1px;     
+    margin-top: -1px;     
+    position: relative;     
+    width: 24px;     
+    height: 24px;     
+    padding: 3px 3px 3px 3px;     
+    cursor: pointer;     
+}     
+.faceDiv>img:hover {     
+    background-color: #efefef;     
+}     
+.faceDiv>img:active {     
+    padding: 4px 3px 2px 3px;     
+}    
