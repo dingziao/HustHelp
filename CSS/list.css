@@ -1,0 +1,179 @@
+/* list展示整体 */
+#middle-plate {
+    height: 1000px;
+
+    overflow: visible;
+    position: absolute;
+    left: calc((100% - 1250px) / 2);
+    top: 110px;
+}
+
+#atc-list {
+    width: 1250px;
+    height: 1000px;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    position: absolute;
+    padding-top: 20px;
+    left: calc((100% - 1250px) / 2);
+    top: 80px;
+
+    background-color: rgb(245, 249, 252);
+
+    border: 2px solid rgb(192, 192, 192);
+    border-top: none;
+}
+/* 隐藏滚动条 */
+#atc-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* 设置list标题部分 */
+#list-head {
+    width: 1250px;
+    height: 80px;
+
+    z-index: 10;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 78px;
+    left: calc((100% - 1250px) / 2);
+    padding-left: 10px;
+    padding-top: 10px;
+
+    border: 2px solid rgb(192, 192, 192);
+    background-color: rgb(245, 249, 252);
+
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.fixed {
+    position: fixed;
+    top: 80px;
+}
+
+/* 列表排序 */
+.sort {
+    width: 600px;
+
+    margin-left: 25px;
+
+    font-size: 22px;
+}
+
+.sort * {
+    color: rgb(73, 123, 137);
+}
+
+.sort-selected {
+    font-weight: 700;
+}
+
+/* 设置帖子部分 */
+.list-cont {
+    height: 60px;
+    width: 1200px;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+    background-color: #fff;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+#list-head > section,
+.list-cont > section {
+    height: 50px;
+
+    float: left;
+    margin-top: 5px;
+    line-height: 50px;
+}
+
+.list-cont > section > a {
+    color: black;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.list-cont > section a:hover {
+    border-bottom: 1px solid black;
+}
+
+/* 帖子标题 */
+.atc-name {
+    width: 600px;
+}
+
+/* 作者栏 */
+.author {
+    width: 250px;
+    text-align: center;
+}
+
+.author > * {
+    float: left;
+
+    line-height: 20px;
+}
+/* 作者名称 */
+.author-name {
+    height: 20px;
+    color: black;
+}
+/* 最后发布时间 */
+.author-time {
+    height: 20px;
+
+    margin-top: 10px;
+
+    color: grey;
+}
+/* 作者头像 */
+.head-picture {
+    width: 40px;
+    height: 40px;
+
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: 2px solid rgb(153, 153, 153);
+}
+/* 板块名称 */
+.cate-name {
+    width: 100px;
+    text-align: center;
+}
+/* 回复查看栏 */
+.respond {
+    width: 100px;
+    text-align: center;
+}
+
+.respond section {
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.respond > :first-child {
+    color: rgb(85, 132, 143);
+}
+
+.respond > :last-child {
+    color: rgb(153, 153, 153);
+}
+/* 最后发布 */
+.last-release {
+    width: 100px;
+    text-align: center;
+}
+
+.list-cont .last-release {
+    color: rgb(153, 153, 153);
+}

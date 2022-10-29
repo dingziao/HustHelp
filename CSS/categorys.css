@@ -1,0 +1,51 @@
+#left-plate {
+    height: 1000px;
+    overflow: visible;
+    position: absolute;
+    left: calc((100% - 1250px) / 2 - 300px);
+    top: 110px;
+}
+
+#categorys {
+    height: 610px;
+    width: 280px;
+
+    /* 设置超出部分滚动 */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* 设置滚动到顶部导航栏下面之后固定 */
+    position: -webkit-sticky;
+    position: sticky;
+    padding-top: 10px;
+    top: 78px;
+
+    border: 2px solid rgb(192, 192, 192);
+
+    background-color: rgb(245, 249, 252);
+}
+/* 隐藏滚动条 */
+#categorys::-webkit-scrollbar {
+    display: none;
+}
+/* 设置单个分类 */
+.cate {
+    width: 260px;
+    height: 40px;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+
+    font-size: 15px;
+    border: 2px solid rgb(192, 192, 192);
+    background-color: rgb(255, 255, 255);
+}
+
+.cate a {
+    color: black;
+}
+
+.cate a:hover {
+    border-bottom: 1px solid black;
+}

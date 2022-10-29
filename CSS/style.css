@@ -1,0 +1,58 @@
+/* style.css */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: auto;
+}
+
+main,
+main * {
+    /* border: 1px solid red; */
+    box-sizing: border-box !important;
+}
+
+main {
+    width: 100%;
+    min-width: 1300px;
+    position: relative;
+    margin: 0 auto;
+
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    height: 50px;
+}
+
+input {
+    outline: none;
+}
+
+/* 右侧盒子用于展示相关信息（待定） */
+#related-content {
+    width: 280px;
+    height: 400px;
+
+    position: fixed;
+    margin-left: calc((100% - 1250px) / 2 + 1270px);
+    bottom: 50px;
+
+    border: 2px solid rgb(192, 192, 192);
+    background-color: rgb(245, 249, 252);
+}
+
+.template {
+    display: none;
+}
